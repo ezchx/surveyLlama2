@@ -1,0 +1,156 @@
+<html>
+
+  <head>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="surveyLlama.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+    <script src=surveyLlama.js></script>
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="row header">
+        <div class="col-md-1 col-md-offset-0">
+          <div><a href="#"><img src="https://www.ezchx.com/projects/tiny_llama.png" id="home_but"></a></div>
+        </div>
+        <div class="col-md-1 left_head">
+          <div id="survey_but"></div>
+        </div>
+        <div class="col-md-6 left_head">
+          <div></div>
+        </div>       
+        <div class="col-md-3 right_head">
+          <div id="sign_up_but"></div>
+        </div>
+        <div class="col-md-1 right_head">
+          <div id="login_but"></div>
+        </div>
+      </div>
+    </div>
+      
+    <div class="row banner">
+      <div class="col-md-12">
+        <div class="main_head">Survey Llama</div>
+      </div>
+      <div class="col-md-12">
+        <div class="sub_head">Custom Surveys with Live Results</div>
+      </div>
+    </div>
+    
+    <div id = "home">
+      <div class="container images">
+        <div class="row">
+          <div class="col-md-4">
+            <img src="https://www.ezchx.com/projects/live.png">
+          </div>
+          <div class="col-md-4">
+            <img src="https://www.ezchx.com/projects/earth.png">
+          </div>
+          <div class="col-md-4">
+            <img src="https://www.ezchx.com/projects/social.png">
+          </div>
+        </div>
+      </div>
+         
+      <div class="container bottom">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="bottom_head">Easy to use</div>
+            <div class="main_text">Thanks to our user friendly interface, you will have your first survey up and running in minutes!</div>
+          </div>
+          <div class="col-md-4">
+            <div class="bottom_head">Flexible</div>
+            <div class="main_text">Unlimited survey, question, and answer capabilities. Add, edit, and delete surveys in a flash.</div>
+          </div>
+          <div class="col-md-4">
+            <div class="bottom_head">Powerful</div>
+            <div class="main_text">Live graphs show your survey results immediately in an easy to read format.</div>          
+          </div>
+        </div>
+      </div>
+
+    </div>
+    
+    <div id = "surveyHome">
+      <div class="container">
+        <span id="survey_search"></span>
+      </div>
+    </div>
+    
+    
+    <div id = "questions">
+      <div class="container">
+        <span id="questions_search"></span>
+      </div>
+    </div>    
+    
+
+    <div id="login">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 bottom_head2" id="title">
+          </div>
+        </div>
+        <form id="login_form">
+        <div class="row">
+          <div class="col-md-1 col-md-offset-4">
+            <p>Email:</p>
+          </div>
+          <div class="col-md-5">
+            <input type="text" id="email" name="email"><span class="err" id="em_err"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-1 col-md-offset-4">
+            <p>Password:</p>
+          </div>
+          <div class="col-md-5">
+            <input type="password" id="password" name="password"><span class="err" id="pw_err"></span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 bottom_head">
+            <button type="submit" class="btn btn-success btn-sm">Submit</button>
+          </div>
+        </div>          
+        </form>
+      </div>
+    </div>
+    
+   
+    
+  <div id="update">
+    <div class="container">
+      <span id="updateHtml"></span>
+    </div>
+  </div>
+    
+    
+    <span id="showFooter"></span>
+
+
+    <div class="container">
+      <div class="row">
+        <p id="debug1"></p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <p id="debug2"></p>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="row">
+        <p id="debug3"></p>
+      </div>
+    </div>
+    
+
+    
+  </body>
+
+</html>
